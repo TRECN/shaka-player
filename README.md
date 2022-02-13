@@ -1,5 +1,4 @@
 # ![Shaka Player](docs/shaka-player-logo.png)
-
 Shaka Player is an open-source JavaScript library for adaptive media.  It plays
 adaptive media formats (such as [DASH][] and [HLS][]) in a browser, without
 using plugins or Flash.  Instead, Shaka Player uses the open web standards
@@ -25,7 +24,6 @@ For details on what's coming next, see our [development roadmap](roadmap.md).
 
 
 ## Platform and browser support matrix
-
 |Browser    |Windows   |Mac      |Linux    |Android  |iOS >= 12 |ChromeOS|Other|
 |:---------:|:--------:|:-------:|:-------:|:-------:|:--------:|:------:|:---:|
 |Chrome¹    |**Y**     |**Y**    |**Y**    |**Y**    |**Native**|**Y**   | -   |
@@ -59,7 +57,6 @@ top-level API, but we just set the video's `src` element to the manifest/media.
 So we are dependent on the browser supporting the manifests.
 
 ### Shaka Player Embedded (for native iOS)
-
 We have another project called [Shaka Player Embedded][] which offers the same
 features and similar APIs for native apps on iOS. This project uses its own
 media stack, which allows it to play content that would otherwise not be
@@ -69,7 +66,6 @@ supported. This supports both DASH and HLS manifests.
 
 
 ## Manifest format support matrix
-
 |Format|Video On-Demand|Live |Event|In-Progress Recording|
 |:----:|:-------------:|:---:|:---:|:-------------------:|
 |DASH  |**Y**          |**Y**| -   |**Y**                |
@@ -82,7 +78,6 @@ formats.
 
 
 ## DASH features
-
 DASH features supported:
  - VOD, Live, and In-Progress Recordings (dynamic VOD content)
  - MPD@timeShiftBufferDepth for seeking backward in Live streams
@@ -111,7 +106,6 @@ DASH features **not** supported:
 
 
 ## HLS features
-
 HLS features supported:
  - VOD, Live, and Event types
  - Low-latency streaming with partial segments, preload hints, and delta updates
@@ -134,7 +128,6 @@ HLS features **not** supported:
 
 
 ## DRM support matrix
-
 |Browser   |Widevine  |PlayReady|FairPlay |ClearKey⁶ |
 |:--------:|:--------:|:-------:|:-------:|:--------:|
 |Chrome¹   |**Y**     | -       | -       |**Y**     |
@@ -221,7 +214,6 @@ attributes.
 
 
 ## Documentation & Important Links ##
-
  * [Demo](https://shaka-player-demo.appspot.com)([sources](demo/))
  * [API documentation](https://shaka-player-demo.appspot.com/docs/api/index.html)
  * [Tutorials](https://shaka-player-demo.appspot.com/docs/api/tutorial-welcome.html)
@@ -240,14 +232,12 @@ For general help and before filing any bugs, please read the
 
 
 ## Contributing ##
-
 If you have improvements or fixes, we would love to have your contributions.
 Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 for more information on the process we would like contributors to follow.
 
 
 ## Framework Integrations ##
-
 The Shaka team doesn't have the bandwidth and experience to provide guidance and
 support for integrating Shaka Player with specific frameworks, but some of our
 users have successfully done so and created tutorials to help other beginners.
